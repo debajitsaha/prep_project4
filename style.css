@@ -1,7 +1,5 @@
 body{
-    
-  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+ 
 
     margin: 0;
     padding: 0;
@@ -130,15 +128,23 @@ border-radius: 5px;
     background-color:#F6E2FF;
     color: #8A11bf;
     text-align: center;
+    font-size: 20px;
+}
+#hours{
     font-size: 30px;
 }
-
+#minute{
+    font-size: 30px;
+}
 .mins{
     height:80% ;
     width: 70px;
     background-color: #F6E2FF;
     color: #8A11bf;
     text-align: center;
+    font-size: 20px;
+}
+#second{
     font-size: 30px;
 }
 .secs{
@@ -147,7 +153,7 @@ border-radius: 5px;
     background-color:#F6E2FF;
     color: #8A11bf;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .blank{
     height:50% ;
