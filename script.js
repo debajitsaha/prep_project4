@@ -18,10 +18,13 @@ function time()
         document.querySelector('.midtext').innerHTML="CLOSE YOUR EYES AND GO TO SLEEP" 
     }
 let ampm=document.querySelector('.ampm')
-if(hrs<=12)
+if(hrs<12)
 {
     ampm.innerHTML="AM"
     
+}else if(hrs==12)
+{
+    ampm.innerHTML="PM"
 }
 else{
     hrs-=12;
@@ -61,7 +64,7 @@ function checkTime(){
         images.src="./Component 31 – 1.svg"
     }else if(parseInt(gdmorning[2].value)===hrs){
         printText.innerHTML="GOOD EVENING!! "   
-        images.src="../lunch_image.png"
+        images.src="./lunch_image.png"
     }else if(parseInt(gdmorning[3].value)===hrs)
     {
         printText.innerHTML="GOOD NIGHT!! "   
@@ -75,10 +78,10 @@ function checkTime(){
  let tergetIndex1=gdmorning[1].options[selectIndex1]
 document.getElementById('lunchtime').innerHTML=tergetIndex1.innerHTML;
    
-let selectIndex2=gdmorning[1].selectedIndex
-let tergetIndex2=gdmorning[1].options[selectIndex2]
+let selectIndex2=gdmorning[2].selectedIndex
+let tergetIndex2=gdmorning[2].options[selectIndex2]
 document.getElementById('naptime').innerHTML=tergetIndex2.innerHTML;
-let selectIndex3=gdmorning[1].selectedIndex
-let tergetIndex3=gdmorning[1].options[selectIndex3]
+let selectIndex3=gdmorning[3].selectedIndex
+let tergetIndex3=gdmorning[3].options[selectIndex3]
 document.getElementById('nightTime').innerHTML=tergetIndex3.innerHTML;
 }
