@@ -9,11 +9,11 @@ function time()
         document.querySelector('.midtext').innerHTML="GRAB SOME HEALTHY BREAKFAST"
     }else if(hrs>=12&&hrs<16)
     {
-        document.querySelector('.midtext').innerHTML="STOP YAWNING,GET SOME TEA... ITS JUST EVENING!"
+        document.querySelector('.midtext').innerHTML="LET'S HAVE SOME LUNCH !!"
     }
     else if(hrs>=16&&hrs<20)
     {
-        document.querySelector('.midtext').innerHTML=""
+        document.querySelector('.midtext').innerHTML="STOP YAWNING,GET SOME TEA... ITS JUST EVENING!"
     }else {
         document.querySelector('.midtext').innerHTML="CLOSE YOUR EYES AND GO TO SLEEP" 
     }
