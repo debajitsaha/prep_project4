@@ -59,7 +59,7 @@ select{
 .goodmorning{
 width: 100%;
 height: 60px;
-font-size: 28px;
+font-size: 25px;
 background-color: #5e2191;
 border-radius: 10px;
 padding-left: 30px;
@@ -76,7 +76,7 @@ font-family: 'bauhaus-hv-bt-heavy', sans-serif;
 border-radius: 5px;
 margin-top:30px;
 font-size: 25px;color: white;
-padding-top: 5px;
+/* padding-top: px; */
 text-align: center;
 float: left;
 display: inline;
@@ -191,7 +191,7 @@ background-color: #5e2191;
 border-radius: 10px;
 padding-left: 30px;
 margin-top: 30px;
-padding-top: 25px;
+padding-top: 20px;
 color: white;
 }
 .lowimg{
@@ -220,6 +220,14 @@ position: absolute;
 opacity: 0.2;
 
 }
+/* .setalarm:hover::before{
+  content: "party time";
+   }
+.setalarm:hover span{
+    display: none;
+     } */
+  
+
 /* ---------------mobile view -------------------------------------------*/
 @media  screen and (min-width:250px) and (max-width: 500px){
     .main-container{
@@ -260,9 +268,12 @@ border-radius: 5px;
         position:absolute;
         top:60px;
         left:-80px;
-        width: 270px;
+        width: 300px;
         height: 60px;
         color: white;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-size: 20px;
         }
         .time-card{
             position:absolute;
@@ -336,5 +347,48 @@ border-radius: 5px;
                
                 
             }
-         
+            .textimer{
+                height:50% ;
+                width: 50px;
+                
+               
+               
+                
+            }
+            .hour{
+                height:80% ;
+                width: 50px;
+                
+            }
+            #hours{
+                font-size: 30px;
+            }
+            #minute{
+                font-size: 30px;
+            }
+            .mins{
+                height:80% ;
+                width: 50px;
+               
+            }
+            #second{
+                font-size: 30px;
+            }
+            .secs{
+                height:80% ;
+                width: 50px;
+              
+            }
+            .blank{
+                height:50% ;
+                width: 15px;
+               
+               
+            }
+            .ampm{
+                height:60% ;
+                width: 50px;
+               
+                
+            }
 }
