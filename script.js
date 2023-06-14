@@ -49,7 +49,7 @@ setInterval(()=>
 let gdmorning=document.querySelectorAll('select')
 let printText=document.querySelector('.goodmorning')
 let images=document.getElementById('img')
-printText.innerHTML="GOOD MORNING"
+printText.innerHTML="GOOD MORNING !!"
 function checkTime(){
     let time=new Date()
     let hrs=time.getHours();
