@@ -5,6 +5,7 @@ body{
     padding: 0;
     
 }
+
 .main-container{
     display: flex;
    
@@ -36,24 +37,40 @@ position: relative;
     margin-top: 20px;
     border-radius: 5px;
     padding: 10px;
+    position: relative;
    
 }
+.textselect{
+    margin-top: 22px;
+}
+.imgf{
+    position: absolute;
+}
 .card{
-    margin-bottom: 28px;
+    margin-bottom: 25px;
 }
 #wakeuptext{
-margin-left: 40px;
-margin-bottom: 10px;
+margin-left: 80px;
+
+
 font-size: 18px;
+}
+#lastimg{
+    position:absolute;
+    top:275px;
 }
 #wakeup{
     margin-left: 40px;
+    
 }
 select{
     width:40%;
     color: #9140b5;
     height: 20px;
     
+}
+#imagetext{
+    padding-top: 30px;
 }
 
 .goodmorning{
@@ -390,5 +407,12 @@ border-radius: 5px;
                 width: 50px;
                
                 
+            }
+            .textselect{
+                margin-left: 50px;
+            }
+            #lastimg{
+                
+                top:257px
             }
 }
