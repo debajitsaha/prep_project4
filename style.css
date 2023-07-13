@@ -254,7 +254,7 @@ opacity: 0.2;
 .toptimer{
     position: absolute;
     top:-40px;
-    left:-80px;
+    left:-54px;
     display:flex;
 flex-direction: row;
 justify-content: space-evenly;
@@ -267,7 +267,7 @@ border-radius: 5px;
 .midtimer{
     position:absolute;
     top:50px;
-    left:-55px;
+    left:-21px;
     height: 18px;
      width: 250px;
     opacity:0.6;
@@ -275,7 +275,7 @@ border-radius: 5px;
 .lowertimer{
         position: absolute;
         top:66px;
-        left:-40px;
+        left:-7px;
         height: 10px;
     width: 220px;
      opacity: 0.2;
@@ -284,7 +284,7 @@ border-radius: 5px;
     .midtext{
         position:absolute;
         top:60px;
-        left:-80px;
+        left:-60px;
         width: 300px;
         height: 60px;
         color: white;
@@ -294,7 +294,7 @@ border-radius: 5px;
         }
         .time-card{
             position:absolute;
-            left: 18px;
+            left: 28px;
             top:320px;
             height: 300px;
             width:300px;
@@ -308,9 +308,10 @@ border-radius: 5px;
         }
         .lowimg{
             position:absolute;
-            left: -96px;
+            left: -78px;
             top:505px;
             height: 220px;
+            
             
         }
         select{
@@ -329,7 +330,7 @@ border-radius: 5px;
         }
         .goodmorning{
             position:absolute;
-            left:20px;
+            left:30px;
             top:920px;
             width: 300px;
             height: 60px;
@@ -340,7 +341,7 @@ border-radius: 5px;
             }
              .setalarm{
                 position:absolute;
-                left:15px;
+                left:20px;
                 top:1000px;
                 height: 50px;
                 width: 50%;
@@ -351,12 +352,12 @@ border-radius: 5px;
             }
             .text{
                 position: absolute;
-                left: 205px;
+                left: 220px;
                 top:1020px;
                 height: 120px;
                 width: 140px;
                 font-size: 12px;
-                
+                margin-bottom: 20px;
                 padding-top: 10px;
                 padding-left: 5px;
                 color: #CB52F8;
