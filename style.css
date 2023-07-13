@@ -254,22 +254,22 @@ opacity: 0.2;
 .toptimer{
     position: absolute;
     top:-40px;
-    left:-54px;
+    left:-62px;
     display:flex;
 flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
 height: 100px;
-width: 310px;
+width: 320px;
 background-color: rgb(244, 246, 248);
 border-radius: 5px;
 }
 .midtimer{
     position:absolute;
     top:50px;
-    left:-21px;
+    left:-31px;
     height: 18px;
-     width: 250px;
+     width: 260px;
     opacity:0.6;
     }
 .lowertimer{
@@ -277,15 +277,15 @@ border-radius: 5px;
         top:66px;
         left:-7px;
         height: 10px;
-    width: 220px;
+    width: 210px;
      opacity: 0.2;
     
     }
     .midtext{
         position:absolute;
         top:60px;
-        left:-60px;
-        width: 300px;
+        left:-68px;
+        width: 312px;
         height: 60px;
         color: white;
         padding-left: 15px;
